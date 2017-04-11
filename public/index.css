@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    max-width: 40%;
+}
+
+.user-list-item {
+    background: rgb(245, 245, 245);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.user-list-item-image {
+    max-height: 100px;
+    background: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.error {
+    color: red;
+}

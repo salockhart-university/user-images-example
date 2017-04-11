@@ -1,0 +1,21 @@
+{
+  "name": "assn03",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon app.js | bunyan",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "bunyan": "^1.8.5",
+    "cloudinary": "^1.5.0",
+    "connect-busboy": "0.0.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.22",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

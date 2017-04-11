@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSCI 4145 - Assignment #3</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+
+    List of Students:
+    <div id="user-list"></div>
+
+</div>
+
+<div class="container">
+
+    Create User:
+    <br>
+    <form id="create-user-form">
+        <label>
+            Student ID:
+            <input id="create-user-id" type="text">
+        </label>
+        <br>
+        <button type="submit">Create</button>
+    </form>
+    <div id="create-user-error" class="error"></div>
+
+</div>
+
+<div class="container">
+
+    Insert Remote Image into User:
+    <br>
+    <form id="insert-remote-image-form">
+        <label>
+            Student ID:
+            <input id="insert-remote-image-id" type="text">
+        </label>
+        <br>
+        <label>
+            URL:
+            <input id="insert-remote-image-url" type="text">
+        </label>
+        <br>
+        <button type="submit">Insert</button>
+    </form>
+    <div id="insert-remote-image-error" class="error"></div>
+
+</div>
+
+<div class="container">
+
+    Insert Local Image into User:
+    <br>
+    <form id="insert-local-image-form">
+        <label>
+            Student ID:
+            <input id="insert-local-image-id" type="text">
+        </label>
+        <br>
+        <label>
+            File:
+            <input id="insert-local-image-file" type="file">
+        </label>
+        <br>
+        <button type="submit">Insert</button>
+    </form>
+    <div id="insert-local-image-error" class="error"></div>
+
+</div>
+
+<div class="container">
+
+    Delete User:
+    <br>
+    <form id="delete-user-form">
+        <label>
+            Student ID:
+            <input id="delete-user-id" type="text">
+        </label>
+        <br>
+        <button type="submit">Delete</button>
+    </form>
+
+</div>
+
+<div class="container">
+
+    View User:
+    <br>
+    <form id="view-user-form">
+        <label>
+            Student ID:
+            <input id="view-user-id" type="text">
+        </label>
+        <br>
+        <button type="submit">View</button>
+    </form>
+    <div id="view-user-error" class="error"></div>
+
+    <div id="view-user-result">
+
+    </div>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
